@@ -1,0 +1,62 @@
+{
+  "chats": [
+    {
+      "id": 1,
+      "UserID": 1,
+      "Msg": "Hey there!",
+      "DateTime": "2022-08-15 20:46"
+    },
+    {
+      "id": 2,
+      "UserID": 2,
+      "Msg": "Hey Dear!",
+      "DateTime": "2022-08-15 20:47"
+    },
+    {
+      "id": 3,
+      "UserID": 3,
+      "Msg": "Hey Bear!",
+      "DateTime": "2022-08-15 20:48"
+    },
+    {
+      "id": 4,
+      "UserID": 4,
+      "Msg": "Hey Lee Shet",
+      "DateTime": "2022-08-15 20:49"
+    },
+    {
+      "id": 1660704136707,
+      "title": "Hello @all"
+    },
+    {
+      "id": 1660704479674,
+      "UserID": 1,
+      "Msg": "test",
+      "DateTime": "2022-08-17T02:47:59.674Z"
+    },
+    {
+      "id": 1660704503191,
+      "UserID": 1,
+      "Msg": "hello guys :D",
+      "DateTime": "2022-08-17T02:48:23.191Z"
+    },
+    {
+      "id": 1660704531041,
+      "UserID": 1,
+      "Msg": "",
+      "DateTime": "2022-08-17T02:48:51.041Z"
+    },
+    {
+      "id": 1660704654327,
+      "UserID": 1,
+      "Msg": "Hi high are you guys?",
+      "DateTime": "2022-08-17T02:50:54.327Z"
+    },
+    {
+      "id": 1676092380850,
+      "UserID": 1,
+      "Msg": "testing chat box",
+      "DateTime": "2023-02-11T05:13:00.850Z"
+    }
+  ]
+}

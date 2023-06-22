@@ -1,0 +1,22 @@
+<!-- <div class="row about-me__content" data-aos="fade-up">
+    <p>
+        <b>Anonymouse : </b>Hi guys! How high are you?
+    </p>
+</div>
+<div class="row about-me__content" data-aos="fade-up">
+    <p>
+        <b>GoodBoy : </b>Hello! I'm fine thank you.
+    </p>
+</div> -->
+<div *ngFor="let chat of ChatList| paginate:{itemsPerPage: 5, currentPage: p, totalItems: total}" class="row about-me__content" data-aos="fade-up">
+    <p>
+        <b>User {{chat.UserID}} : </b>{{chat.Msg}}
+    </p>
+</div>
+<div class="row about-me__content" data-aos="fade-up">
+    <pagination-controls (pageChange)="pageChangeEvent($event)"></pagination-controls>
+</div>
+<div class="row about-me__content" data-aos="fade-up">
+    <textarea [(ngModel)]="NewChat" class="jtxtarea"></textarea>
+    <button class="jbtn" (click)="newChat()">Send</button>
+</div>
